@@ -338,8 +338,6 @@ display: flex;
 }
 
 .close-button{
-    width: 11px;
-    height: 11px;
     background-repeat: no-repeat;
     background-size: cover;
     fill: #000;
@@ -366,8 +364,6 @@ display: flex;
 }
 
 .icon{
-  width: 70px;
-  height: 70px;
   padding: 25px 102px;
 }
 
@@ -617,6 +613,8 @@ display: flex;
 
 
   .footer{
+    max-width: 1600px;
+    margin: auto;
     display: block;
     padding: 60px 0px;
     background-color: var(--footer-color);
